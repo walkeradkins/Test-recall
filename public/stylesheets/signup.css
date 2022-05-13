@@ -1,0 +1,42 @@
+#signupGrey {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background-color: rgba(0, 0, 0, .8);
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#signupBlock {
+    background: linear-gradient(to top right, rgba(219, 11, 157, .3), rgba(212, 2, 2, .95));
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    bottom: 25%;
+    right: 25%;
+}
+
+#signupFields {
+    margin: 50px;
+}
+
+#signupForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#signupImg {
+    width: 25%
+}
